@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "ionic-roles-component",
+  "title": "Ionic Roles Component",
+  "author": {
+      "name": "Gislainy Crisostomo Velasco",
+      "url": "https://github.com/gislainy"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/gislainy/ionic-roles-component.git"
+  },
+  "bugs": {
+      "url": "https://github.com/gislainy/ionic-roles-component/issues"
+  },
+  "main": "ionic-roles-component.umd.js",
+  "module": "ionic-roles-component.js",
+  "typings": "ionic-roles-component.d.ts",
+  "peerDependencies": {
+      "@angular/core": ">=4.1.3",
+      "ionic-angular": ">=3.6.0",
+      "rxjs": ">=5.4.0",
+      "zone.js": ">=0.8.12"
+  }
+}

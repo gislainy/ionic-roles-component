@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "module": "es2015",
+        "target": "es5",
+        "stripInternal": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "outDir": "./build",
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "skipLibCheck": true,
+        "types": [],
+        "baseUrl": "./src",
+        "rootDir": "./src",
+        "paths": {
+            "@angular/*": [
+                "../../node_modules/@angular/*"
+            ]
+        }
+    },
+    "angularCompilerOptions": {
+        "annotateForClosureCompiler": true,
+        "strictMetadataEmit": true,
+        "skipTemplateCodegen": true,
+        "flatModuleOutFile": "ionic-roles-component.js",
+        "flatModuleId": "ionic-roles-component"
+    },
+    "files": [
+        "./src/index.ts"
+    ]
+}
